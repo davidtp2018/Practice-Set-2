@@ -33,7 +33,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void isOddTest() {
-		MyInteger int1 = new MyInteger(3);
+		MyIntegerTest int1 = new MyIntegerTest(3);
 		boolean dActualInt = int1.isOdd();
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
@@ -41,7 +41,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void isOddTest2() {
-		MyInteger int2 = new MyInteger(4);
+		MyIntegerTest int2 = new MyIntegerTest(4);
 		boolean dActualInt = int2.isOdd();
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
@@ -49,7 +49,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void isEvenTest() {
-		MyInteger int1 = new MyInteger(46);
+		MyIntegerTest int1 = new MyIntegerTest(46);
 		boolean dActualInt = int1.isEven();
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
@@ -57,7 +57,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void isEvenTest2() {
-		MyInteger int2 = new MyInteger(213);
+		MyIntegerTest int2 = new MyIntegerTest(213);
 		boolean dActualInt = int2.isEven();
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
@@ -65,7 +65,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void isPrimeTest() {
-		MyInteger int1 = new MyInteger(41);
+		MyIntegerTest int1 = new MyIntegerTest(41);
 		boolean dActualInt = int1.isPrime();
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
@@ -73,7 +73,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void isPrimeTest2() {
-		MyInteger int2 = new MyInteger(52);
+		MyIntegerTest int2 = new MyIntegerTest(52);
 		boolean dActualInt = int2.isPrime();
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
@@ -81,109 +81,109 @@ public class MyInteger_Test {
 
 	@Test
 	public void isOddTest3() {
-		MyInteger int1 = new MyInteger(5);
+		MyIntegerTest int1 = new MyIntegerTest(5);
 		int value = int1.getiValue();
-		boolean dActualInt = MyInteger.isOdd(value);
+		boolean dActualInt = MyIntegerTest.isOdd(value);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isOddTest4() {
-		MyInteger int2 = new MyInteger(4);
+		MyIntegerTest int2 = new MyIntegerTest(4);
 		int value = int2.getiValue();
-		boolean dActualInt = MyInteger.isOdd(value);
+		boolean dActualInt = MyIntegerTest.isOdd(value);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isEvenTest3() {
-		MyInteger int1 = new MyInteger(44);
+		MyIntegerTest int1 = new MyIntegerTest(44);
 		int value = int1.getiValue();
-		boolean dActualInt = MyInteger.isEven(value);
+		boolean dActualInt = MyIntegerTest.isEven(value);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isEvenTest4() {
-		MyInteger int2 = new MyInteger(253);
+		MyIntegerTest int2 = new MyIntegerTest(253);
 		int value = int2.getiValue();
-		boolean dActualInt = MyInteger.isEven(value);
+		boolean dActualInt = MyIntegerTest.isEven(value);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isPrimeTest3() {
-		MyInteger int1 = new MyInteger(11);
+		MyIntegerTest int1 = new MyIntegerTest(11);
 		int value = int1.getiValue();
-		boolean dActualInt = MyInteger.isPrime(value);
+		boolean dActualInt = MyIntegerTest.isPrime(value);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isPrimeTest4() {
-		MyInteger int2 = new MyInteger(100);
+		MyIntegerTest int2 = new MyIntegerTest(100);
 		int value = int2.getiValue();
-		boolean dActualInt = MyInteger.isPrime(value);
+		boolean dActualInt = MyIntegerTest.isPrime(value);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isOddTest5() {
-		MyInteger int1 = new MyInteger(27);
-		boolean dActualInt = MyInteger.isOdd(int1);
+		MyIntegerTest int1 = new MyIntegerTest(27);
+		boolean dActualInt = MyIntegerTest.isOdd(int1);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isOddTest6() {
-		MyInteger int2 = new MyInteger(546);
-		boolean dActualInt = MyInteger.isOdd(int2);
+		MyIntegerTest int2 = new MyIntegerTest(546);
+		boolean dActualInt = MyIntegerTest.isOdd(int2);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isEvenTest5() {
-		MyInteger int1 = new MyInteger(40);
-		boolean dActualInt = MyInteger.isEven(int1);
+		MyIntegerTest int1 = new MyIntegerTest(40);
+		boolean dActualInt = MyIntegerTest.isEven(int1);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isEvenTest6() {
-		MyInteger int2 = new MyInteger(123);
-		boolean dActualInt = MyInteger.isEven(int2);
+		MyIntegerTest int2 = new MyIntegerTest(123);
+		boolean dActualInt = MyIntegerTest.isEven(int2);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isPrimeTest5() {
-		MyInteger int1 = new MyInteger(59);
-		boolean dActualInt = MyInteger.isPrime(int1);
+		MyIntegerTest int1 = new MyIntegerTest(59);
+		boolean dActualInt = MyIntegerTest.isPrime(int1);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void isPrimeTest6() {
-		MyInteger int2 = new MyInteger(12);
-		boolean dActualInt = MyInteger.isPrime(int2);
+		MyIntegerTest int2 = new MyIntegerTest(12);
+		boolean dActualInt = MyIntegerTest.isPrime(int2);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
 
 	@Test
 	public void equalsTest1() {
-		MyInteger int1 = new MyInteger(3);
+		MyIntegerTest int1 = new MyIntegerTest(3);
 		boolean dActualInt = int1.equals(3);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
@@ -191,7 +191,7 @@ public class MyInteger_Test {
 
 	@Test
 	public void equalsTest2() {
-		MyInteger int1 = new MyInteger(3);
+		MyIntegerTest int1 = new MyIntegerTest(3);
 		boolean dActualInt = int1.equals(54);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
@@ -199,8 +199,8 @@ public class MyInteger_Test {
 
 	@Test
 	public void equalsTest3() {
-		MyInteger int2 = new MyInteger(12);
-		MyInteger int1 = new MyInteger(12);
+		MyIntegerTest int2 = new MyIntegerTest(12);
+		MyIntegerTest int1 = new MyIntegerTest(12);
 		boolean dActualInt = int2.equals(int1);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
@@ -208,8 +208,8 @@ public class MyInteger_Test {
 
 	@Test
 	public void equalsTest4() {
-		MyInteger int2 = new MyInteger(12);
-		MyInteger int3 = new MyInteger(11);
+		MyIntegerTest int2 = new MyIntegerTest(12);
+		MyIntegerTest int3 = new MyIntegerTest(11);
 		boolean dActualInt = int2.equals(int3);
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);

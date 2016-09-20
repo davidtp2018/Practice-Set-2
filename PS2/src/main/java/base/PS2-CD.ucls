@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="base.MyInteger" project="PS2" file="/PS2/src/main/java/base/MyInteger.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="base.MyIntegerTest" project="PS2" 
+    file="/PS2/src/main/java/base/MyIntegerTest.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="317" width="177" x="57" y="-4"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
