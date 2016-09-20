@@ -28,9 +28,9 @@ public class MyInteger_Test {
 
 	@Test
 	public void test() {
-		assertTrue(1==1);
+		assertTrue(1 == 1);
 	}
-	
+
 	@Test
 	public void isOddTest() {
 		MyInteger int1 = new MyInteger(3);
@@ -38,7 +38,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isOddTest2() {
 		MyInteger int2 = new MyInteger(4);
@@ -54,7 +54,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isEvenTest2() {
 		MyInteger int2 = new MyInteger(213);
@@ -70,7 +70,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isPrimeTest2() {
 		MyInteger int2 = new MyInteger(52);
@@ -78,16 +78,16 @@ public class MyInteger_Test {
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isOddTest3() {
 		MyInteger int1 = new MyInteger(5);
 		int value = int1.getiValue();
-	    boolean dActualInt = MyInteger.isOdd(value);
+		boolean dActualInt = MyInteger.isOdd(value);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isOddTest4() {
 		MyInteger int2 = new MyInteger(4);
@@ -105,7 +105,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isEvenTest4() {
 		MyInteger int2 = new MyInteger(253);
@@ -123,7 +123,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isPrimeTest4() {
 		MyInteger int2 = new MyInteger(100);
@@ -132,15 +132,15 @@ public class MyInteger_Test {
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isOddTest5() {
 		MyInteger int1 = new MyInteger(27);
-	    boolean dActualInt = MyInteger.isOdd(int1);
+		boolean dActualInt = MyInteger.isOdd(int1);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isOddTest6() {
 		MyInteger int2 = new MyInteger(546);
@@ -148,7 +148,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isEvenTest5() {
 		MyInteger int1 = new MyInteger(40);
@@ -156,7 +156,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isEvenTest6() {
 		MyInteger int2 = new MyInteger(123);
@@ -164,7 +164,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isPrimeTest5() {
 		MyInteger int1 = new MyInteger(59);
@@ -172,7 +172,7 @@ public class MyInteger_Test {
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
 	@Test
 	public void isPrimeTest6() {
 		MyInteger int2 = new MyInteger(12);
@@ -180,12 +180,39 @@ public class MyInteger_Test {
 		boolean dExpectInt = false;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
-	public void equalsTest1(){
+
+	@Test
+	public void equalsTest1() {
 		MyInteger int1 = new MyInteger(3);
 		boolean dActualInt = int1.equals(3);
 		boolean dExpectInt = true;
 		assertEquals(dActualInt, dExpectInt);
 	}
-	
+
+	@Test
+	public void equalsTest2() {
+		MyInteger int1 = new MyInteger(3);
+		boolean dActualInt = int1.equals(54);
+		boolean dExpectInt = false;
+		assertEquals(dActualInt, dExpectInt);
+	}
+
+	@Test
+	public void equalsTest3() {
+		MyInteger int2 = new MyInteger(12);
+		MyInteger int1 = new MyInteger(12);
+		boolean dActualInt = int2.equals(int1);
+		boolean dExpectInt = true;
+		assertEquals(dActualInt, dExpectInt);
+	}
+
+	@Test
+	public void equalsTest4() {
+		MyInteger int2 = new MyInteger(12);
+		MyInteger int3 = new MyInteger(11);
+		boolean dActualInt = int2.equals(int3);
+		boolean dExpectInt = false;
+		assertEquals(dActualInt, dExpectInt);
+	}
+
 }
