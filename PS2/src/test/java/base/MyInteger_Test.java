@@ -181,4 +181,11 @@ public class MyInteger_Test {
 		assertEquals(dActualInt, dExpectInt);
 	}
 	
+	public void equalsTest1(){
+		MyInteger int1 = new MyInteger(3);
+		boolean dActualInt = int1.equals(3);
+		boolean dExpectInt = true;
+		assertEquals(dActualInt, dExpectInt);
+	}
+	
 }
