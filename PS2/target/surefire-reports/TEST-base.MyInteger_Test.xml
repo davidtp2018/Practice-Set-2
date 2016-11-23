@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="base.MyInteger_Test" time="0.005" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="base.MyInteger_Test" time="0.009" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
@@ -26,13 +26,13 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/DavidPennington/Documents/Fall Semester 2016 UD/CISC 181/Lectures-Labs /.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6078927861477814884.tmp"/>
+    <property name="classworlds.conf" value="/Users/DavidPennington/Documents/Fall Semester 2016 UD/CISC 181/Lectures-Labs /.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4478829337168403088.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/DavidPennington/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.11.6"/>
+    <property name="os.version" value="10.12"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/DavidPennington"/>
     <property name="user.timezone" value="America/New_York"/>
@@ -62,24 +62,24 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="base.MyInteger_Test" name="equalsTest1" time="0.002"/>
+  <testcase classname="base.MyInteger_Test" name="equalsTest1" time="0.003"/>
   <testcase classname="base.MyInteger_Test" name="equalsTest2" time="0"/>
   <testcase classname="base.MyInteger_Test" name="equalsTest3" time="0"/>
   <testcase classname="base.MyInteger_Test" name="equalsTest4" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isPrimeTest" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isEvenTest" time="0"/>
-  <testcase classname="base.MyInteger_Test" name="test" time="0"/>
-  <testcase classname="base.MyInteger_Test" name="isOddTest2" time="0.001"/>
+  <testcase classname="base.MyInteger_Test" name="test" time="0.001"/>
+  <testcase classname="base.MyInteger_Test" name="isOddTest2" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isOddTest3" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isOddTest4" time="0"/>
-  <testcase classname="base.MyInteger_Test" name="isOddTest5" time="0"/>
+  <testcase classname="base.MyInteger_Test" name="isOddTest5" time="0.001"/>
   <testcase classname="base.MyInteger_Test" name="isOddTest6" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isPrimeTest2" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isPrimeTest3" time="0"/>
-  <testcase classname="base.MyInteger_Test" name="isPrimeTest4" time="0"/>
+  <testcase classname="base.MyInteger_Test" name="isPrimeTest4" time="0.001"/>
   <testcase classname="base.MyInteger_Test" name="isPrimeTest5" time="0.001"/>
   <testcase classname="base.MyInteger_Test" name="isPrimeTest6" time="0"/>
-  <testcase classname="base.MyInteger_Test" name="isEvenTest2" time="0"/>
+  <testcase classname="base.MyInteger_Test" name="isEvenTest2" time="0.001"/>
   <testcase classname="base.MyInteger_Test" name="isEvenTest3" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isEvenTest4" time="0"/>
   <testcase classname="base.MyInteger_Test" name="isEvenTest5" time="0"/>
